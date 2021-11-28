@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsreactexpress-dev-133708-authRole",
+      "UnauthRoleArn": "arn:aws:iam::704484783207:role/amplify-awsreactexpress-dev-133708-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::704484783207:role/amplify-awsreactexpress-dev-133708-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awsreactexpress-dev-133708-deployment",
+      "UnauthRoleName": "amplify-awsreactexpress-dev-133708-unauthRole",
+      "StackName": "amplify-awsreactexpress-dev-133708",
+      "StackId": "arn:aws:cloudformation:us-east-1:704484783207:stack/amplify-awsreactexpress-dev-133708/328964e0-507a-11ec-9196-0ae388addae7",
+      "AmplifyAppId": "d2e57rsxy7zdn5"
+    },
+    "categories": {
+      "function": {
+        "awsReactExpressHelloFunction": {
+          "deploymentBucketName": "amplify-awsreactexpress-dev-133708-deployment",
+          "s3Key": "amplify-builds/awsReactExpressHelloFunction-472f694b727875365752-build.zip"
+        }
+      }
+    }
+  }
+}

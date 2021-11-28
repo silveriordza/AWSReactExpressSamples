@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/awsReactExpressHelloFunction": {
+      "name": "/awsReactExpressHelloFunction",
+      "lambdaFunction": "awsReactExpressHelloFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
