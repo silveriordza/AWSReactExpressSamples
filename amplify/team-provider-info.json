@@ -16,6 +16,10 @@
         "awsReactExpressHelloFunction": {
           "deploymentBucketName": "amplify-awsreactexpress-dev-133708-deployment",
           "s3Key": "amplify-builds/awsReactExpressHelloFunction-472f694b727875365752-build.zip"
+        },
+        "awsFunctionLambdaExpressType": {
+          "deploymentBucketName": "amplify-awsreactexpress-dev-133708-deployment",
+          "s3Key": "amplify-builds/awsFunctionLambdaExpressType-55756764455647594165-build.zip"
         }
       }
     }

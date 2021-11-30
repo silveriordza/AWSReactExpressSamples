@@ -24,8 +24,8 @@ Read-Host -Prompt 'Press enter to continue...'
 Write-Host 'Now push the local stuff to the AWS Cloud with amplify push'
 amplify push
 Write-Host 'Add an Express application with amplify add function expressServerExample'
-amplify add function expressServerExample
-Write-Host 'Now you can modify the code of that expressServerExample in the index.js and app.js of that lambda function. I will wait...'
+amplify add function
+Write-Host 'Now you can modify the code of that in the index.js and app.js of that lambda function. I will wait...'
 Read-Host -Prompt 'Press enter to continue...'
 Write-Host 'Now save your code and you can do an Update of the API with amplify update api, make sure to select Add Another path, to add a new path for the Express app'
 amplify update api

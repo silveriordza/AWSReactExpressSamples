@@ -5,6 +5,12 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
       "dependsOn": []
+    },
+    "awsFunctionLambdaExpressType": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
     }
   },
   "api": {
@@ -15,6 +21,14 @@
         {
           "category": "function",
           "resourceName": "awsReactExpressHelloFunction",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "awsFunctionLambdaExpressType",
           "attributes": [
             "Name",
             "Arn"
